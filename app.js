@@ -55,7 +55,7 @@ app.use(cookieSession({
 // end cookie
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('src', path.join(__dirname, 'src'));
 app.set('view engine', 'ejs');
 
 app.set('layout', 'partials/layout');
