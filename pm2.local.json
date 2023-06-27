@@ -3,7 +3,7 @@
   "script": "app.js",
   "watch": [
     "component",
-    "src",
+    "views",
     "app.js"
   ],
   "ignore_watch": [
